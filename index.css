@@ -1,0 +1,427 @@
+/* index.css */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-image: url("material/fondo/ilustracion3.png");
+	font-family: arial, Sans-serif;
+	
+}
+img{
+	width: 100%;
+}
+.social-bar {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    width: 69px;
+    padding: 16px 13px;
+    background-color: rgba(160, 58, 122, 0.90);
+    margin-top: -95px;
+    box-shadow: -1px 2px 2px rgba(0, 0, 0, 0.16);
+	
+}
+.social-bar ul{
+	list-style-type:none;
+}
+.social-bar .social a {
+    display: block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 22px;
+}
+
+main.css:3746
+.social-bar .social a {
+    background: #ffffff;
+    color: #a03a7a;
+}
+.social-bar .social li {
+    margin-bottom: 17px;
+}
+main.css:3170
+.social li {
+    display: inline-block;
+    margin: 3px;
+}
+main.css:111
+ul li {
+    list-style: none;
+}
+.botonera{
+	position:fixed;
+	width: 100%;
+	z-index:1;
+	
+}
+.contenedor{
+	max-width: 1000px;
+	margin: auto;
+	
+}
+.botonera ul{
+	list-style-type: none;
+	background-color: #524c79;
+	height: 50px; 
+	padding-top: 15px;
+	display: flex;
+	padding-left: 20px; 
+	border-radius: 5px 5px 0 0;
+	max-width: 1000px;
+	margin: auto;
+	padding-bottom:20px;
+	margin-top:-20px;
+}
+ul a:hover{
+	background-color:#332535;
+	padding-top:7px;
+}
+.nope{
+	flex-grow: 1;
+	max-width: 286px;
+	position:relative;
+	top:-19px;
+}
+
+.botonera a:not(.nope){
+	background-color: none;
+	display: block;
+	text-decoration: none;
+	color: white;
+	height: 25px;
+	line-height: 16px;
+	padding: 0 43px; 
+	text-align: center;
+	border-right: 1px solid #EEE;
+	font-weight: bold;
+}
+/* --------------CABECERA---------------------- */
+.cabecera{
+	position:relative;
+}
+.flecha{
+	width:55px;
+	height:55px;
+	position:absolute;
+	margin-top:622px;
+	margin-left:450px;
+}
+
+/* --------------CONTENIDO---------------------- */
+.contenido{
+	background-color: #524c79;
+	Clear: both;
+	margin-top: 20px; 
+	border-radius: 5px 5px 0 0;
+	overflow:auto;
+}
+.titulopagina{
+	position:absolute;
+	top: 235px;
+	left: 720px;
+}
+h1{
+	margin-top:65px;
+	color: black;
+	font-size:59px;
+}
+p{
+	text-align:center;
+}
+
+/* --------------IMAGEN1---------------------- */
+.imagennubes{
+	text-align: center;
+	margin-top: 30px;
+}
+
+/* ----------------CONTENEDOR 2-------------------- */
+.imagen1{
+	margin:auto;
+	width: 25%;
+	float: left;
+	margin-top:50px;
+	margin-left: 8px;
+	transform-origin: top left;
+	clear: both;
+	transition: width 2s;
+	transition-timing-function: cubic-bezier(0.14,1.44,0.44,-0.4);
+}
+.imagen1:hover{
+	transform:scale(1.2)
+}
+.imagen2{
+	width: 25%;
+	float: left;
+	margin-top:50px;
+	transform-origin: top right;
+	transition: width 2s;
+	transition-timing-function: cubic-bezier(0.14,1.44,0.44,-0.4);	
+}
+.imagen2:hover{
+	transform:scale(1.2)
+}
+.imagen3{
+	width: 25%;
+	float: right;
+	margin-right: 491px;
+	transform-origin: bottom right;
+	clear: both;
+	transition: width 2s;
+	transition-timing-function: cubic-bezier(0.14,1.44,0.44,-0.4);	
+}
+.imagen3:hover{
+	transform:scale(1.2)
+}
+.imagen4{
+	width: 25%;
+	float: left;
+	margin-left:8px;
+	margin-bottom: 289px;
+	transform-origin: bottom left;
+	transition: transform 2s;
+	transition-timing-function: cubic-bezier(0.14,1.44,0.44,-0.4);
+}
+.imagen4:hover{
+	transform:scale(1.2)
+}
+.seccionfoto{
+	float: left;
+	margin-left:567px;
+	margin-top:51px;
+	position:absolute;
+	
+}
+.seccionfoto h2{
+	font-size:75px;
+	color:white
+}
+.seccionesfoto{
+	float: left;
+	margin-left:574px;
+	margin-top:174px;
+	position:absolute;
+}
+.seccionesfoto ul{
+	list-style-type: none;
+}
+.seccionesfoto a{
+	color:white;
+}
+.cuadro3{
+	float: left;
+	margin-left:134px;
+	margin-top:471px;
+	position:absolute;
+}
+.cuadro3 h2{
+	font-size:75px;
+	color:white;
+	
+}
+.cuadro4{
+	float: right;
+	/*margin-left:407px;*/
+	margin-top:8px;
+	/*position:absolute;*/
+}
+.a{
+	width: 360px;
+}
+.clasificacionvideos ul{
+	list-style-type: none;
+	
+}
+.clasificacionvideos a{
+	color:white;
+	margin-bottom:25px;
+}
+/* -----------------CONTENEDOR 3-------------------- */
+
+.columna1{
+	margin:auto;
+	width: 28%;
+	float: left;
+	margin-top:89px;
+	margin-left:42px;
+	margin-bottom:26px;
+}
+
+.columna2{
+	margin:auto;
+	width: 21%;
+	float: left;
+	margin-top:89px;
+	margin-left:57px;
+
+}
+.columna3{
+	margin:auto;
+	width: 31%;
+	float: left;
+	margin-top:89px;
+	margin-left:54px;
+	
+}
+
+.publicidad{
+	color:grey;
+	float:left;
+	font-size: 12px;
+	position:absolute;
+	margin-top:484px;
+	margin-left:70px;
+}
+.identidad{
+	color:grey;
+	float:left;
+	font-size: 12px;
+	position:absolute;
+	margin-top:484px;
+	margin-left:408px;	
+}
+.imagencorporativa{
+	color:grey;
+	float:left;
+	font-size: 12px;
+	position:absolute;
+	margin-top:484px;
+	margin-left:690px;	
+}
+
+
+
+/* -----------------CONTENEDOR 4--------------------- */
+
+.contacto{
+	background-color:none;
+	width:576px;
+	height:150px;
+	margin-top:84px;
+	position:absolute;
+}
+.contacto h3{
+	color:white;
+	margin-left:25px;
+	font-size:35px;
+}
+.contacto h4{
+	color:white;
+	margin-left:25px;
+	font-size:20px;
+}
+.misredes{
+	background-color:none;
+	width:576px;
+	height:144px;
+	float:left;
+	margin-top:204px;
+}
+.misredes{
+	background-color:none;
+}
+.misredes h3{
+	
+	color:white;
+	margin-left:25px;
+	font-size:30px;
+}
+.misredes ul{
+	list-style-type: none;
+	/* color:white; */
+	margin-left:5px;
+	font-size:15px;
+}
+.misredes a{
+	color:white;
+	margin-left:25px;
+	font-size:20px;
+	list-style-type: none;
+	text-decoration:none;
+}
+
+.formulario{
+	background-color:none;
+	width:425px;
+	height:294px;
+	float:right;
+	left:750px;
+	position:absolute;
+	margin-top:54px;
+	margin-right:5px;
+	
+}
+.formulario h3{
+	color:white;
+	margin-top:10px;
+	font-size:35px;
+}
+.formulario form{
+	color:white;
+}
+form{
+	background-color: none;
+	max-width: 600px;
+	margin: 36px auto;
+	overflow: auto;
+}
+label, input, textarea{
+	width: 50%
+}
+label{
+	clear: left;
+}
+label{
+	
+	float: left;
+}
+input, texarea{
+	float: right;
+}
+.btn-enviar{
+	float: none;
+	clear: both;
+	display: block;
+	max-width: 200px;
+	margin: 3px auto;
+}
+textarea{
+	max-width: 460px;
+	max-height: 250px;
+}
+.opcionestema{
+	position:absolute;
+	left:213px;
+	width:212px;
+}
+/* ---------------------piepagina------------------------------------ */
+
+.sobremi h2{
+	margin-left:10px;
+	margin-top:25px;
+	color:white;
+	font-size: 25px;
+	font-family: 'Rajdhani', sans-serif;
+	font-style: italic;
+}
+.sobremi p{
+	margin-left:10px;
+	margin-right:10px;
+	color:white;
+	font-size: 15px;
+	margin-bottom:25px;
+	font-style: italic;
+	
+}
+.sobremi h3{
+	color:white;
+	font-size: 15px;
+	margin-bottom:25px;
+	font-style: italic;
+	margin-left:600px;
+}
+
+
